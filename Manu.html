@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - SpiceHeaven</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-utensils"></i> SpiceHeaven
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reservation.html">Reservation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header py-5" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1920&h=400&fit=crop') center/cover;">
+        <div class="container text-center text-white">
+            <h1 class="display-4 fw-bold" data-aos="fade-up">Our Menu</h1>
+            <p class="lead" data-aos="fade-up" data-aos-delay="200">Discover our delicious selection of dishes</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="py-5">
+        <div class="container">
+            <!-- Menu Tabs -->
+            <div class="menu-tabs text-center mb-5" data-aos="fade-up">
+                <ul class="nav nav-pills justify-content-center">
+                    <li class="nav-item">
+                        <button class="nav-link active menu-tab" data-category="breakfast">Breakfast</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link menu-tab" data-category="lunch">Lunch</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link menu-tab" data-category="dinner">Dinner</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link menu-tab" data-category="desserts">Desserts</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link menu-tab" data-category="drinks">Drinks</button>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Breakfast Menu -->
+            <div id="breakfast" class="menu-content">
+                <div class="row">
+                    <div class="col-lg-6 mb-4" data-aos="fade-up">
+                        <div class="menu-item d-flex">
+                            <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=100&h=100&fit=crop" alt="Pancakes" class="me-3">
+                            <div class="menu-item-info flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5>Fluffy Pancakes <span class="badge-vegan">V</span></h5>
+                                    <span class="menu-item-price">$12.99</span>
+                                </div>
+                                <p>Stack of fluffy pancakes with maple syrup, butter, and fresh berries</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="menu-item d-flex">
+                            <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=100&h=100&fit=crop" alt="Avocado Toast" class="me-3">
+                            <div class="menu-item-info flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5>Avocado Toast <span class="badge-vegan">V</span></h5>
+                                    <span class="menu-item-price">$10.99</span>
+                                </div>
+                                <p>Smashed avocado on sourdough with tomatoes, lime, and hemp seeds</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="menu-item d-flex">
+                            <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?w=100&h=100&fit=crop" alt="Eggs Benedict" class="me-3">
+                            <div class="menu-item-info flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5>Eggs Benedict</h5>
+                                    <span class="menu-item-price">$14.99</span>
+                                </div>
+                                <p>Poached eggs on English muffins with ham and hollandaise sauce</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="menu-item d-flex">
+                            <img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=100&h=100&fit=crop" alt="Breakfast Burrito" class="me-3">
+                            <div class="menu-item-info flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5>Breakfast Burrito <span class="badge-spicy">Spicy</span></h5>
+                                    <span class="menu-item-price">$11.99</span>
+                                </div>
+                                <p>Scrambled eggs, cheese, potatoes, and salsa wrapped in a flour tortilla</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lunch Menu -->
+            <div id="lunch" class="menu-content" style="display: none;">
+                <div class="row">
+                    <div class="col-lg-6 mb-4" data-aos="fade-up">
+                        <div class="menu-item d-flex">
+                            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=100&h=100&fit=crop" alt="Grilled Salmon" class="me-3">
+                            <div class="menu-item-info flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5>Grilled Salmon</h5>
+                                    <span class="menu-item-price">$18.99</span>
+                                </div>
+                                <p>Fresh Atlantic salmon with quinoa and roasted vegetables</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="menu-item d-flex">
+                            <img src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=100&h=100&fit=crop" alt="Caesar Salad" class="me-3">
+                            <div class="menu-item-info flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5>Caesar Salad <span class="badge-vegan">V</span></h5>
+                                    <span class="menu-item-price">$13.99</span>
+                                </div>
+                                <p>Crisp romaine lettuce with Caesar dressing, croutons, and parmesan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="menu-item d-flex">
+                            <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=100&h=100&fit=crop" alt="Chicken Sandwich" class="me-3">
+                            <div class="menu-item-info flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5>Grilled Chicken Sandwich</h5>
+                                    <span class="menu-item-price">$15.99</span>
+                                </div>
+                                <p>Juicy grilled chicken breast with lettuce, tomato, and avocado</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="menu-item d-flex">
+                            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=100&h=100&fit=crop" alt="Pasta" class="me-3">
+                            <div class="menu-item-info flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5>Pasta Primavera <span class="badge-vegan">V</span></h5>
+                                    <span class="menu-item-price">$16.99</span>
+                                </div>
+                                <p>Fresh pasta with seasonal vegetables and herb olive oil</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dinner Menu -->
+            <div id="dinner" class="menu-content" style="display: none;">
+                <div class="row">
+                    <div class="col-lg-6 mb-4" data-aos="fade-up">
+                        <div class="menu-item d-flex">
+                            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=100&h=100&fit=crop" alt="Ribeye Steak" class="me-3">
+                            <div class="menu-item-info flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5>Ribeye Steak</h5>
+                                    <span class="menu-item-price">$28.99</span>
+                                </div>
+                                <p>12oz prime ribeye with garlic mashed potatoes and asparagus</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="menu-item d-flex">
+                            <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?w=100&h=100&fit=crop" alt="Seafood Paella" class="me-3">
+                            <div class="menu-item-info flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5>Seafood Paella <span class="badge-spicy">Spicy</span></h5>
+                                    <span class="menu-item-price">$24.99</span>
+                                </div>
+                                <p>Traditional Spanish rice dish with shrimp, mussels, and saffron</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="menu-item d-flex">
+                            <img src="https://images.unsplash.com/photo-1562967914-608f82629710?w=100&h=100&fit=crop" alt="Lamb Chops" class="me-3">
+                            <div class="menu-item-info flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5>Herb Crusted Lamb Chops</h5>
+                                    <span class="menu-item-price">$26.99</span>
+                                </div>
+                                <p>Tender lamb chops with rosemary, served with roasted vegetables</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="menu-item d-flex">
+                            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=100&h=100&fit=crop" alt="Lobster Ravioli" class="me-3">
+                            <div class="menu-item-info flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5>Lobster Ravioli</h5>
+                                    <span class="menu-item-price">$22.99</span>
+                                </div>
+                                <p>Handmade ravioli filled with lobster in a creamy tomato sauce</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desserts Menu -->
+            <div id="desserts" class="menu-content" style="display: none;">
+                <div class="row">
+                    <div class="col-lg-6 mb-4" data-aos="fade-up">
+                        <div class="menu-item d-flex">
+                            <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=100&h=100&fit=crop" alt="Chocolate Cake" class="me-3">
+                            <div class="menu-item-info flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5>Chocolate Lava Cake</h5>
+                                    <span class="menu-item-price">$8.99</span>
+                                </div>
+                                <p>Warm chocolate cake with molten center and vanilla ice cream</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="menu-item d-flex">
+                            <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=100&h=100&fit=crop" alt="Tiramisu" class="me-3">
+                            <div class="menu-item-info flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5>Classic Tiramisu</h5>
+                                    <span class="menu-item-price">$7.99</span>
+                                </div>
+                                <p>Traditional Italian dessert with coffee-soaked ladyfingers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="menu-item d-flex">
+                            <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=100&h=100&fit=crop" alt="Cheesecake" class="me-3">
+                            <div class="menu-item-info flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5>New York Cheesecake</h5>
+                                    <span class="menu-item-price">$6.99</span>
+                                </div>
+                                <p>Creamy cheesecake with graham cracker crust and berry compote</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="menu-item d-flex">
+                            <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=100&h=100&fit=crop" alt="Ice Cream" class="me-3">
+                            <div class="menu-item-info flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5>Artisan Ice Cream</h5>
+                                    <span class="menu-item-price">$5.99</span>
+                                </div>
+                                <p>Three scoops of our house-made ice cream (vanilla, chocolate, strawberry)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Drinks Menu -->
+            <div id="drinks" class="menu-content" style="display: none;">
+                <div class="row">
+                    <div class="col-lg-6 mb-4" data-aos="fade-up">
+                        <div class="menu-item d-flex">
+                            <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=100&h=100&fit=crop" alt="Coffee" class="me-3">
+                            <div class="menu-item-info flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5>Specialty Coffee</h5>
+                                    <span class="menu-item-price">$4.99</span>
+                                </div>
+                                <p>Freshly brewed coffee from our signature blend</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="menu-item d-flex">
+                            <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=100&h=100&fit=crop" alt="Fresh Juice" class="me-3">
+                            <div class="menu-item-info flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5>Fresh Orange Juice <span class="badge-vegan">V</span></h5>
+                                    <span class="menu-item-price">$3.99</span>
+                                </div>
+                                <p>Freshly squeezed orange juice, no added sugar</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="menu-item d-flex">
+                            <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=100&h=100&fit=crop" alt="Wine" class="me-3">
+                            <div class="menu-item-info flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5>House Wine</h5>
+                                    <span class="menu-item-price">$8.99
