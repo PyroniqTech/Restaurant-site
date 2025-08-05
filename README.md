@@ -58,26 +58,12 @@ Professional Web Developer | HTML Templates & Custom Web Solutions
 ---
 
 ## 📸 Website Live
-
-![SpiceHeaven Preview](https://spiceheaven.vercel.app)
+(https://spiceheaven.vercel.app/)
 ---
 
 ## 📌 License
 
 This project is free to use for educational and portfolio purposes. For commercial usage, please contact the developer.
-
----
-
-## 🚀 How to Use
-
-1. **Download or Clone**
-   ```bash
-   
-2. Open with any browser
-Just open index.html in your browser or deploy on your preferred hosting service.
-
-
-
 
 ---
 
