@@ -57,10 +57,9 @@ Professional Web Developer | HTML Templates & Custom Web Solutions
 
 ---
 
-## 📸 Preview
+## 📸 Website Live
 
-![SpiceHeaven Preview](https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=1200)
-
+![SpiceHeaven Preview](https://spiceheaven.vercel.app)
 ---
 
 ## 📌 License
