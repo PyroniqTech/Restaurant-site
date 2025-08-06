@@ -41,8 +41,7 @@
 ├── index.html             # Main Homepage
 ├── menu.html              # Menu Page
 ├── gallery.html           # Gallery with tabs & lightbox
-├── reservation.html       # Reservation
-form with validation
+├── reservation.html       # Reservation form with validation
 ├── contact.html           # Contact form
 ├── 404.html               # Error page
 ├── style.css              # Custom styles
